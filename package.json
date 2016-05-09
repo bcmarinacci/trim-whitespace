@@ -1,0 +1,44 @@
+{
+  "name": "trim-whitespace",
+  "version": "0.0.1",
+  "description": "Trim leading and/or trailing string whitespace",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=3.8.6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --fix index.js test/",
+    "prepublish": "npm run test",
+    "test": "tape test/**/*.test.js | faucet && npm run lint",
+    "preversion": "npm run test",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Benjamin Marinacci",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bcmarinacci/trim-whitespace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcmarinacci/trim-whitespace/issues"
+  },
+  "keywords": [
+    "leading",
+    "trailing",
+    "trim",
+    "whitespace"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.7.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1",
+    "faucet": "0.0.1",
+    "tape": "^4.5.1"
+  }
+}
