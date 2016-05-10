@@ -50,18 +50,18 @@ const trim = require('trim-whitespace');
 
 ### trim(input)
 
-input: `string`
+__input__: `string`
 
 Accepts a string and returns a string without leading and trailing spaces and/or tabs.
 
 ### trim.leading(input)
 
-input: `string`
+__input__: `string`
 
 Accepts a string and returns a string without leading spaces and/or tabs.
 
 ### trim.trailing(input)
 
-input: `string`
+__input__: `string`
 
 Accepts a string and returns a string without trailing spaces and/or tabs.
