@@ -13,10 +13,10 @@ Trim leading and trailing spaces and/or tabs
 ```javascript
 const trim = require('trim-whitespace');
 
-trim('  Anakin Skywalker  \n  Padme Amidala  ')
+trim('  Anakin Skywalker  \n  Padme Amidala  ');
 // 'Anakin Skywalker\nPadme Amidala'
 
-trim('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t')
+trim('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t');
 // 'Anakin Skywalker\nPadme Amidala'
 ```
 
@@ -24,10 +24,10 @@ Trim leading spaces and/or tabs
 ```javascript
 const { leading } = require('trim-whitespace');
 
-leading('  Anakin Skywalker  \n  Padme Amidala  ')
+leading('  Anakin Skywalker  \n  Padme Amidala  ');
 // 'Anakin Skywalker  \nPadme Amidala  '
 
-leading('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t')
+leading('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t');
 // 'Anakin Skywalker\t\t\nPadme Amidala\t\t'
 ```
 
@@ -35,10 +35,10 @@ Trim trailing spaces and/or tabs
 ```javascript
 const { trailing } = require('trim-whitespace');
 
-trailing('  Anakin Skywalker  \n  Padme Amidala  ')
+trailing('  Anakin Skywalker  \n  Padme Amidala  ');
 // '  Anakin Skywalker\n  Padme Amidala'
 
-trailing('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t')
+trailing('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t');
 // '\t\tAnakin Skywalker\n\t\tPadme Amidala'
 ```
 
