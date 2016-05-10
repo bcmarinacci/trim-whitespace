@@ -1,7 +1,7 @@
 {
   "name": "trim-whitespace",
   "version": "0.0.1",
-  "description": "Trim leading and/or trailing string whitespace",
+  "description": "Trim leading and/or trailing string whitespace.",
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.8.6"
