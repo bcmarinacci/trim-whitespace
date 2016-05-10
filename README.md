@@ -11,7 +11,7 @@ npm install --save trim-whitespace
 
 Trim leading and trailing spaces and/or tabs
 ```javascript
-const trim = require('trim-trailing-whitespace');
+const trim = require('trim-whitespace');
 
 trim('  Anakin Skywalker  \n  Padme Amidala  ')
 // 'Anakin Skywalker\nPadme Amidala'
@@ -22,7 +22,7 @@ trim('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t')
 
 Trim leading spaces and/or tabs
 ```javascript
-const { leading } = require('trim-trailing-whitespace');
+const { leading } = require('trim-whitespace');
 
 leading('  Anakin Skywalker  \n  Padme Amidala  ')
 // 'Anakin Skywalker  \nPadme Amidala  '
@@ -33,7 +33,7 @@ leading('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t')
 
 Trim trailing spaces and/or tabs
 ```javascript
-const { trailing } = require('trim-trailing-whitespace');
+const { trailing } = require('trim-whitespace');
 
 trailing('  Anakin Skywalker  \n  Padme Amidala  ')
 // '  Anakin Skywalker\n  Padme Amidala'
