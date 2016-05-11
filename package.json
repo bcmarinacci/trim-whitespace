@@ -1,14 +1,14 @@
 {
   "name": "trim-whitespace",
   "version": "1.0.3",
-  "description": "Trim leading and/or trailing string whitespace.",
+  "description": "Remove leading and/or trailing spaces and tabs from each line of a string.",
   "engines": {
     "node": ">=6.0.0",
     "npm": ">=3.8.6"
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --fix index.js test/",
+    "lint": "eslint index.js test/ --fix",
     "prepublish": "npm run test",
     "test": "tape test/**/*.test.js | faucet && npm run lint",
     "preversion": "npm run test",

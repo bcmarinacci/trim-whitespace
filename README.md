@@ -1,45 +1,36 @@
 # trim whitespace [![Build Status](https://travis-ci.org/bcmarinacci/trim-whitespace.svg?branch=master)](https://travis-ci.org/bcmarinacci/trim-whitespace)
 
-> Trim leading and/or trailing string whitespace.
+> Remove leading and/or trailing spaces and tabs from each line of a string.
 
 ## Install
 ```bash
-npm install --save trim-whitespace
+npm install trim-whitespace --save
 ```
 
-## Usage
+## Examples
 
-Trim leading and trailing spaces and/or tabs
+Remove leading and trailing spaces and tabs
 ```javascript
 const trim = require('trim-whitespace');
 
-trim('  Anakin Skywalker  \n  Padme Amidala  ');
-// 'Anakin Skywalker\nPadme Amidala'
-
-trim('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t');
-// 'Anakin Skywalker\nPadme Amidala'
+trim('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
+// \nAnakin Skywalker\nPadme Amidala\n
 ```
 
-Trim leading spaces and/or tabs
+Remove leading spaces and tabs
 ```javascript
 const { leading } = require('trim-whitespace');
 
-leading('  Anakin Skywalker  \n  Padme Amidala  ');
-// 'Anakin Skywalker  \nPadme Amidala  '
-
-leading('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t');
-// 'Anakin Skywalker\t\t\nPadme Amidala\t\t'
+leading('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
+// \nAnakin Skywalker \t\nPadme Amidala\t \n
 ```
 
-Trim trailing spaces and/or tabs
+Remove trailing spaces and tabs
 ```javascript
 const { trailing } = require('trim-whitespace');
 
-trailing('  Anakin Skywalker  \n  Padme Amidala  ');
-// '  Anakin Skywalker\n  Padme Amidala'
-
-trailing('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t');
-// '\t\tAnakin Skywalker\n\t\tPadme Amidala'
+trim.trailing('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
+// \n \tAnakin Skywalker\n\t Padme Amidala\n
 ```
 
 ## API
@@ -48,20 +39,20 @@ trailing('\t\tAnakin Skywalker\t\t\n\t\tPadme Amidala\t\t');
 const trim = require('trim-whitespace');
 ```
 
-### trim(input)
+### trim(_input_)
 
 __input__: `string`
 
-Accepts a string and returns a string without leading and trailing spaces and/or tabs.
+Removes leading and trailing spaces and tabs from each line of a string.
 
-### trim.leading(input)
-
-__input__: `string`
-
-Accepts a string and returns a string without leading spaces and/or tabs.
-
-### trim.trailing(input)
+### trim.leading(_input_)
 
 __input__: `string`
 
-Accepts a string and returns a string without trailing spaces and/or tabs.
+Removes leading spaces and tabs from each line of a string.
+
+### trim.trailing(_input_)
+
+__input__: `string`
+
+Removes trailing spaces and tabs from each line of a string.
