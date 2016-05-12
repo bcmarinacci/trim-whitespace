@@ -8,7 +8,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint index.js test/ --fix",
+    "lint": "eslint --fix index.js test/",
     "prepublish": "npm run test",
     "test": "tape test/**/*.test.js | faucet && npm run lint",
     "preversion": "npm run test",

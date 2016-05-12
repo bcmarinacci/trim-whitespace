@@ -4,10 +4,10 @@
 
 ## Install
 ```bash
-npm install trim-whitespace --save
+$ npm install trim-whitespace --save
 ```
 
-## Examples
+## Usage
 
 Remove leading and trailing spaces and tabs
 ```javascript

@@ -1,5 +1,5 @@
 'use strict';
 
-const trim = module.exports = string => trim.trailing(trim.leading(string));
-trim.leading = string => string.replace(/^[ \t]+/gm, '');
-trim.trailing = string => string.replace(/[ \t]+$/gm, '');
+const trim = module.exports = str => trim.trailing(trim.leading(str));
+trim.leading = str => str.replace(/^[ \t]+/gm, '');
+trim.trailing = str => str.replace(/[ \t]+$/gm, '');
