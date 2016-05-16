@@ -29,7 +29,7 @@ Remove trailing spaces and tabs
 ```javascript
 const { trailing } = require('trim-whitespace');
 
-trim.trailing('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
+trailing('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
 // \n \tAnakin Skywalker\n\t Padme Amidala\n
 ```
 
