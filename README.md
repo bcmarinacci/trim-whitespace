@@ -1,6 +1,10 @@
-# trim whitespace [![Build Status](https://travis-ci.org/bcmarinacci/trim-whitespace.svg?branch=master)](https://travis-ci.org/bcmarinacci/trim-whitespace)
+# trim whitespace
 
-> Remove leading and/or trailing spaces and tabs from each line of a string.
+[![Version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
+
+> Remove leading and/or trailing spaces and tabs from each line of a string
 
 ## Install
 ```bash
@@ -56,3 +60,14 @@ Removes leading spaces and tabs from each line of a string.
 __input__: `string`
 
 Removes trailing spaces and tabs from each line of a string.
+
+## License
+
+MIT
+
+[npm-image]: https://img.shields.io/npm/v/trim-whitespace.svg
+[npm-url]: https://www.npmjs.com/package/trim-whitespace
+[travis-image]: https://travis-ci.org/bcmarinacci/trim-whitespace.svg?branch=master
+[travis-url]: https://travis-ci.org/bcmarinacci/trim-whitespace
+[coveralls-image]: https://coveralls.io/repos/github/bcmarinacci/trim-whitespace/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/bcmarinacci/trim-whitespace?branch=master
