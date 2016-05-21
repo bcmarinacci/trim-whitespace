@@ -2,7 +2,7 @@
 
 [![NPM Version][npm-image]][npm-url]
 [![Build Status][circleci-image]][circleci-url]
-[![Coverage Status][codecov-image]][codecov-url]
+[![Coverage Status][coveralls-image]][coveralls-url]
 
 > Remove leading and/or trailing spaces and tabs from each line of a string
 
@@ -68,6 +68,6 @@ MIT
 [npm-image]: https://img.shields.io/npm/v/trim-whitespace.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/trim-whitespace
 [circleci-image]: https://img.shields.io/circleci/project/bcmarinacci/trim-whitespace/master.svg?style=flat-square
-[circleci-url]: https://circleci.com/gh/bcmarinacci/trim-whitespace
-[codecov-image]: https://img.shields.io/codecov/c/github/bcmarinacci/trim-whitespace/master.svg?style=flat-square
-[codecov-url]: https://codecov.io/gh/bcmarinacci/trim-whitespace
+[circleci-url]: https://circleci.com/gh/bcmarinacci/trim-whitespace/tree/master
+[coveralls-image]: https://img.shields.io/coveralls/bcmarinacci/trim-whitespace/master.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/github/bcmarinacci/trim-whitespace?branch=master
