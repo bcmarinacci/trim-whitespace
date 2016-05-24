@@ -13,7 +13,7 @@ $ npm install trim-whitespace --save
 
 ## Usage
 
-Remove leading and trailing spaces and tabs
+Remove leading and trailing spaces and tabs from a string.
 ```javascript
 const trim = require('trim-whitespace');
 
@@ -21,7 +21,7 @@ trim('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
 // \nAnakin Skywalker\nPadme Amidala\n
 ```
 
-Remove leading spaces and tabs
+Remove leading spaces and tabs from a string.
 ```javascript
 const { leading } = require('trim-whitespace');
 
@@ -29,7 +29,7 @@ leading('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
 // \nAnakin Skywalker \t\nPadme Amidala\t \n
 ```
 
-Remove trailing spaces and tabs
+Remove trailing spaces and tabs from a string.
 ```javascript
 const { trailing } = require('trim-whitespace');
 
@@ -43,23 +43,35 @@ trailing('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
 const trim = require('trim-whitespace');
 ```
 
-### trim(_input_)
+### trim(_str_)
 
-__input__: `string`
+Returns a string without any leading or trailing spaces or tabs.
 
-Removes leading and trailing spaces and tabs from each line of a string.
+#### str
 
-### trim.leading(_input_)
+type: `String`
 
-__input__: `string`
+The string to trim.
 
-Removes leading spaces and tabs from each line of a string.
+### trim.leading(_str_)
 
-### trim.trailing(_input_)
+Returns a string without any leading spaces or tabs.
 
-__input__: `string`
+#### str
 
-Removes trailing spaces and tabs from each line of a string.
+type: `String`
+
+The string to trim.
+
+### trim.trailing(_str_)
+
+Returns a string without any trailing spaces or tabs.
+
+#### str
+
+type: `String`
+
+The string to trim.
 
 ## License
 
