@@ -8,9 +8,9 @@
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --fix index.js test/",
+    "lint": "eslint --fix index.js spec/",
     "prepublish": "npm run test",
-    "test": "istanbul cover tape -- test/**/*.test.js && npm run lint",
+    "test": "istanbul cover jasmine && npm run lint",
     "preversion": "npm run test",
     "postversion": "git push && git push --tags"
   },
@@ -40,6 +40,6 @@
     "eslint-plugin-jsx-a11y": "^1.2.0",
     "eslint-plugin-react": "^5.1.1",
     "istanbul": "^0.4.3",
-    "tape": "^4.5.1"
+    "jasmine": "^2.4.1"
   }
 }
