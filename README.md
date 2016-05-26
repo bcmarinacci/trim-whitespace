@@ -7,6 +7,7 @@
 > Remove leading and/or trailing spaces and tabs from each line of a string
 
 ## Install
+
 ```bash
 $ npm install trim-whitespace --save
 ```
@@ -49,7 +50,7 @@ Returns a string without any leading or trailing spaces or tabs.
 
 #### str
 
-type: `String`
+- type: `String`
 
 The string to trim.
 
@@ -59,7 +60,7 @@ Returns a string without any leading spaces or tabs.
 
 #### str
 
-type: `String`
+- type: `String`
 
 The string to trim.
 
@@ -69,7 +70,7 @@ Returns a string without any trailing spaces or tabs.
 
 #### str
 
-type: `String`
+- type: `String`
 
 The string to trim.
 
