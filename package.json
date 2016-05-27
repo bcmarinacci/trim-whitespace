@@ -1,6 +1,6 @@
 {
   "name": "trim-whitespace",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Remove leading and/or trailing spaces and tabs from each line of a string",
   "engines": {
     "node": "^6.1.0",
