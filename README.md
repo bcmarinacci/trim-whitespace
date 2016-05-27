@@ -15,6 +15,7 @@ $ npm install trim-whitespace --save
 ## Usage
 
 Remove leading and trailing spaces and tabs from a string.
+
 ```javascript
 const trim = require('trim-whitespace');
 
@@ -23,6 +24,7 @@ trim('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
 ```
 
 Remove leading spaces and tabs from a string.
+
 ```javascript
 const { leading } = require('trim-whitespace');
 
@@ -31,6 +33,7 @@ leading('\n \tAnakin Skywalker \t\n\t Padme Amidala\t \n');
 ```
 
 Remove trailing spaces and tabs from a string.
+
 ```javascript
 const { trailing } = require('trim-whitespace');
 
