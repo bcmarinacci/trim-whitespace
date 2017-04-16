@@ -1,9 +1,9 @@
 # trim whitespace
 
-[![npm](https://img.shields.io/npm/v/trim-whitespace.svg?style=flat-square)]()
-[![node](https://img.shields.io/node/v/trim-whitespace.svg?style=flat-square)]()
-[![CircleCI](https://img.shields.io/circleci/project/github/bcmarinacci/trim-whitespace.svg?style=flat-square)]()
-[![Coveralls](https://img.shields.io/coveralls/bcmarinacci/trim-whitespace.svg?style=flat-square)]()
+[![npm](https://img.shields.io/npm/v/trim-whitespace.svg?style=flat-square)](https://www.npmjs.com/package/trim-whitespace)
+[![node](https://img.shields.io/node/v/trim-whitespace.svg?style=flat-square)](https://github.com/nodejs/node)
+[![CircleCI](https://img.shields.io/circleci/project/github/bcmarinacci/trim-whitespace.svg?style=flat-square)](https://circleci.com/gh/bcmarinacci/trim-whitespace)
+[![Coveralls](https://img.shields.io/coveralls/bcmarinacci/trim-whitespace.svg?style=flat-square)](https://coveralls.io/github/bcmarinacci/trim-whitespace)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 > Remove leading and/or trailing spaces and tabs from each line of a string
