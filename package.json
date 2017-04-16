@@ -8,8 +8,8 @@
   },
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --fix index.js spec/",
-    "test": "jest && npm run lint",
+    "prettier": "prettier --single-quote --write index.js __tests__/**/*.js",
+    "test": "jest",
     "preversion": "npm run test",
     "postversion": "git push && git push --tags"
   },
@@ -33,12 +33,8 @@
   ],
   "devDependencies": {
     "coveralls": "^2.11.9",
-    "eslint": "^2.11.1",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-import": "^1.8.1",
-    "eslint-plugin-jsx-a11y": "^1.3.0",
-    "eslint-plugin-react": "^5.1.1",
-    "jest": "^19.0.2"
+    "jest": "^19.0.2",
+    "prettier": "^1.1.0"
   },
   "jest": {
     "bail": true,
